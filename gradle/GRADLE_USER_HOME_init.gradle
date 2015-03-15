@@ -1,0 +1,13 @@
+allprojects {
+  repositories {
+    maven {
+      url "http://127.0.0.1:8981/nexus/content/groups/public/"
+    }
+    jcenter()
+    mavenCentral()
+    
+    //use the localRepository specified in Maven's settings.xml 
+    //or USER_HOME/.m2/repository for default if not specified
+    mavenLocal()
+  }
+}

@@ -1,0 +1,7 @@
+[user]
+	name = jacktan1991
+	email = 792626757@qq.com
+    
+[alias]
+    unstage = reset HEAD --
+    lastlog = log -1 HEAD
