@@ -1,6 +1,6 @@
 [user]
-	name = jacktan1991
-	email = 792626757@qq.com
+    name = jacktan1991
+    email = 792626757@qq.com
     
 [alias]
     unstage = reset HEAD --

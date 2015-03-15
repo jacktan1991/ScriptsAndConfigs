@@ -1,33 +1,33 @@
 [core]
-	symlinks = false
-	autocrlf = true
+    symlinks = false
+    autocrlf = true
     editor = vim
     quotepath = false
 [color]
     ui = true
-	diff = auto
-	status = auto
-	branch = auto
-	interactive = true
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = true
     filemode = false
     autocrlf = false
 [pack]
-	packSizeLimit = 2g
+    packSizeLimit = 2g
 [help]
-	format = html
+    format = html
 [http]
-	sslCAinfo = /bin/curl-ca-bundle.crt
+    sslCAinfo = /bin/curl-ca-bundle.crt
 [sendemail]
-	smtpserver = /bin/msmtp.exe
+    smtpserver = /bin/msmtp.exe
 
 [diff "astextplain"]
-	textconv = astextplain
+    textconv = astextplain
 [rebase]
-	autosquash = true
+    autosquash = true
 [gui]
-	encoding = UTF-8
+    encoding = UTF-8
 [i18n]
-	commitEncoding = UTF-8
+    commitEncoding = UTF-8
     logoutputencoding = GBK
 [svn]
-	pathnameencoding = UTF-8
+    pathnameencoding = UTF-8
