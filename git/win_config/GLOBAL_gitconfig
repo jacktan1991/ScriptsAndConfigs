@@ -4,4 +4,4 @@
     
 [alias]
     unstage = reset HEAD --
-    lastlog = log -1 HEAD
+    lastlog = log --pretty=foramet:'%Cred%H%Creset @%C(yellow)%d%Creset %n Author: %cn <%ce> %n Date: %cd %Cblue(%cr)%Creset %n Encoding: %e %n %n%     >%Cgreen%s%Creset< %n' -1 HEAD

@@ -28,6 +28,6 @@
     encoding = UTF-8
 [i18n]
     commitEncoding = UTF-8
-    logoutputencoding = GBK
+    logOutputEncoding = GBK
 [svn]
     pathnameencoding = UTF-8
