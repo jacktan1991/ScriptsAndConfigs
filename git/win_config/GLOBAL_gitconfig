@@ -2,6 +2,12 @@
     name = jacktan1991
     email = 792626757@qq.com
     
+[log]
+    date = iso
+
+[format]
+    pretty = %Cred%H%Creset @%C(yellow)%d%Creset %nAuthor:   %cn <%ce> %nDate:     %cd %C(magenta)(%cr)%Creset %nEncoding: %e%n%n    >%C(cyan)%C(bold)%s%Creset< %n
+
 [alias]
     unstage = reset HEAD --
-    lastlog = log --pretty=foramet:'%Cred%H%Creset @%C(yellow)%d%Creset %n Author: %cn <%ce> %n Date: %cd %Cblue(%cr)%Creset %n Encoding: %e %n %n%     >%Cgreen%s%Creset< %n' -1 HEAD
+    lastlog = log -1 HEAD
