@@ -6,6 +6,6 @@ CALL oldpathvar.bat
 SETX NODEJS_HOME "%cd%" /M
 
 :: append excutable scripts in NODEJS_HOME to PATH Variable
-SETX PATH "%OLD_PATH%;%%NODEJS_HOME%%\" /M
+SETX PATH "%OLD_PATH%;%%NODEJS_HOME%%" /M
 
 @pause
