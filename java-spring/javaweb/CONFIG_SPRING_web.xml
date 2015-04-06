@@ -25,7 +25,7 @@
 	</context-param>
   <context-param>
 		<param-name>contextConfigLocation</param-name>
-		<param-value>/WEB-INF/applicationContext.groovy, /WEB-INF/applicationContext.xml</param-value>
+		<param-value>classpath:conf/spring/applicationContext.groovy, /WEB-INF/applicationContext.xml</param-value>
     <!-- GroovyWebApplicationContext understand both *.groovy and *.xml -->
     <!-- And *.groovy recommended placed first -->
 	</context-param>
