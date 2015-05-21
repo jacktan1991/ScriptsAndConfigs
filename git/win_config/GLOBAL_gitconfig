@@ -11,4 +11,5 @@
 [alias]
     unstage = reset HEAD --
     lastlog = log -1 HEAD
+    logUpto- = log HEAD -n
     brh-infos = branch --all -vv
