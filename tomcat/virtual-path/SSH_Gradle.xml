@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/SSH_Gradle" docBase="F:\kankan\SSH_Gradle\build\libs\SSH_Gradle-1.1.1.war"
+          unpackWARs="true" autoDeploy="true" reloadable="true"
+          debug="0" privileged="true">
+
+</Context>
